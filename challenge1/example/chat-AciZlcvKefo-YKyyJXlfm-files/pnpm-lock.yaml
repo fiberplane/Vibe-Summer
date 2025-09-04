@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@fiberplane/hono':
         specifier: 0.5.5
-        version: 0.5.5(@hono/zod-openapi@0.18.4(hono@4.8.5)(zod@3.25.76))(@standard-schema/spec@1.0.0)(hono@4.8.5)
+        version: 0.5.5(@hono/zod-openapi@0.18.4(hono@4.9.6)(zod@3.25.76))(@standard-schema/spec@1.0.0)(hono@4.9.6)
       '@hono/mcp':
         specifier: 0.1.1
-        version: 0.1.1(@modelcontextprotocol/sdk@1.17.0)(hono@4.8.5)
+        version: 0.1.1(@modelcontextprotocol/sdk@1.17.0)(hono@4.9.6)
       '@modelcontextprotocol/sdk':
         specifier: 1.17.0
         version: 1.17.0
@@ -21,8 +21,8 @@ importers:
         specifier: 0.44.3
         version: 0.44.3(@cloudflare/workers-types@4.20250321.0)(@libsql/client@0.14.0)
       hono:
-        specifier: 4.8.5
-        version: 4.8.5
+        specifier: 4.9.6
+        version: 4.9.6
       zod:
         specifier: 3.25.76
         version: 3.25.76
@@ -1252,8 +1252,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.8.5:
-    resolution: {integrity: sha512-Up2cQbtNz1s111qpnnECdTGqSIUIhZJMLikdKkshebQSEBcoUKq6XJayLGqSZWidiH0zfHRCJqFu062Mz5UuRA==}
+  hono@4.9.6:
+    resolution: {integrity: sha512-doVjXhSFvYZ7y0dNokjwwSahcrAfdz+/BCLvAMa/vHLzjj8+CFyV5xteThGUsKdkaasgN+gF2mUxao+SGLpUeA==}
     engines: {node: '>=16.9.0'}
 
   http-errors@2.0.0:
@@ -1583,8 +1583,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  yaml@2.8.0:
-    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
+  yaml@2.8.1:
+    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -1941,36 +1941,36 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@fiberplane/hono@0.5.5(@hono/zod-openapi@0.18.4(hono@4.8.5)(zod@3.25.76))(@standard-schema/spec@1.0.0)(hono@4.8.5)':
+  '@fiberplane/hono@0.5.5(@hono/zod-openapi@0.18.4(hono@4.9.6)(zod@3.25.76))(@standard-schema/spec@1.0.0)(hono@4.9.6)':
     dependencies:
-      '@hono/standard-validator': 0.1.4(@standard-schema/spec@1.0.0)(hono@4.8.5)
-      '@hono/zod-openapi': 0.18.4(hono@4.8.5)(zod@3.25.76)
+      '@hono/standard-validator': 0.1.4(@standard-schema/spec@1.0.0)(hono@4.9.6)
+      '@hono/zod-openapi': 0.18.4(hono@4.9.6)(zod@3.25.76)
       dotenv: 16.6.1
-      hono: 4.8.5
+      hono: 4.9.6
       zod: 3.25.76
     transitivePeerDependencies:
       - '@standard-schema/spec'
 
-  '@hono/mcp@0.1.1(@modelcontextprotocol/sdk@1.17.0)(hono@4.8.5)':
+  '@hono/mcp@0.1.1(@modelcontextprotocol/sdk@1.17.0)(hono@4.9.6)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.0
-      hono: 4.8.5
+      hono: 4.9.6
 
-  '@hono/standard-validator@0.1.4(@standard-schema/spec@1.0.0)(hono@4.8.5)':
+  '@hono/standard-validator@0.1.4(@standard-schema/spec@1.0.0)(hono@4.9.6)':
     dependencies:
       '@standard-schema/spec': 1.0.0
-      hono: 4.8.5
+      hono: 4.9.6
 
-  '@hono/zod-openapi@0.18.4(hono@4.8.5)(zod@3.25.76)':
+  '@hono/zod-openapi@0.18.4(hono@4.9.6)(zod@3.25.76)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 7.3.4(zod@3.25.76)
-      '@hono/zod-validator': 0.4.3(hono@4.8.5)(zod@3.25.76)
-      hono: 4.8.5
+      '@hono/zod-validator': 0.4.3(hono@4.9.6)(zod@3.25.76)
+      hono: 4.9.6
       zod: 3.25.76
 
-  '@hono/zod-validator@0.4.3(hono@4.8.5)(zod@3.25.76)':
+  '@hono/zod-validator@0.4.3(hono@4.9.6)(zod@3.25.76)':
     dependencies:
-      hono: 4.8.5
+      hono: 4.9.6
       zod: 3.25.76
 
   '@img/sharp-darwin-arm64@0.33.5':
@@ -2519,7 +2519,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.8.5: {}
+  hono@4.9.6: {}
 
   http-errors@2.0.0:
     dependencies:
@@ -2622,7 +2622,7 @@ snapshots:
 
   openapi3-ts@4.5.0:
     dependencies:
-      yaml: 2.8.0
+      yaml: 2.8.1
 
   parseurl@1.3.3: {}
 
@@ -2870,7 +2870,7 @@ snapshots:
 
   ws@8.18.3: {}
 
-  yaml@2.8.0: {}
+  yaml@2.8.1: {}
 
   youch@3.2.3:
     dependencies:
